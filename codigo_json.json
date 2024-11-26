@@ -1,0 +1,40 @@
+{
+  "guestCheckId": "string",
+  "guestCheckLineItems": [
+    {
+      "guestCheckLineItemId": "string",
+      "menuItem": {
+        "itemId": "string",
+        "name": "string",
+        "description": "string",
+        "price": "number"
+      },
+      "quantity": "number",
+      "totalPrice": "number",
+      "discounts": [
+        {
+          "discountId": "string",
+          "amount": "number",
+          "type": "string"
+        }
+      ],
+      "serviceCharge": [
+        {
+          "chargeId": "string",
+          "amount": "number"
+        }
+      ],
+      "tenderMedia": [
+        {
+          "mediaId": "string",
+          "amount": "number",
+          "type": "string"
+        }
+      ],
+      "errorCode": {
+        "code": "string",
+        "message": "string"
+      }
+    }
+  ]
+}
