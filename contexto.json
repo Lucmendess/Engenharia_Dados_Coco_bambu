@@ -1,0 +1,51 @@
+{
+  "detailLines": [
+    {
+      "menuItem": {
+        "id": 1,
+        "name": "Pizza Margherita",
+        "quantity": 2,
+        "price": 20.00
+      },
+      "discount": {
+        "discountId": 101,
+        "amount": 5.00
+      },
+      "serviceCharge": {
+        "serviceChargeId": 201,
+        "amount": 2.00
+      },
+      "tenderMedia": {
+        "tenderId": 301,
+        "type": "Credit Card",
+        "amount": 35.00
+      },
+      "errorCode": {
+        "errorId": 401,
+        "message": "Item unavailable"
+      }
+    },
+    {
+      "menuItem": {
+        "id": 2,
+        "name": "Spaghetti Carbonara",
+        "quantity": 1,
+        "price": 15.00
+      },
+      "discount": {
+        "discountId": 102,
+        "amount": 3.00
+      },
+      "serviceCharge": {
+        "serviceChargeId": 202,
+        "amount": 1.50
+      },
+      "tenderMedia": {
+        "tenderId": 302,
+        "type": "Cash",
+        "amount": 13.50
+      },
+      "errorCode": null
+    }
+  ]
+}
